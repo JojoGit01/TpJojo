@@ -1,0 +1,81 @@
+html, body{
+    font-size: 20px;
+    margin: 0;
+    background: lightblue;
+}
+
+.mainInscription, .mainConnexion {
+    width: 500px;
+    margin: auto;
+}
+.mainInscription fieldset, .mainConnexion fieldset {
+    background: khaki;
+    margin-top: 20px;
+}
+.mainInscription .title-mainI, .mainConnexion .title-C {
+    font-size: 55px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.mainInscription .errors, .mainConnexion .errors{
+    width: 350px;
+    margin: auto;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid red;
+}
+.mainInscription input, .mainConnexion input {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+.mainInscription .btnSubmit input, 
+.mainInscription .btnReset input,
+.mainConnexion .btnValider input,
+.mainConnexion .btnReset input {
+    border: 1px none;
+    cursor: pointer;
+    padding-right: 2px;
+}
+.mainInscription .btnSubmit input:hover, 
+.mainInscription .btnReset input:hover,
+.mainConnexion .btnValider input:hover,
+.mainConnexion .btnReset input:hover {
+    background: grey;
+    color: red;
+}
+.mainInscription .helpPassword {
+    width: 100%;
+    font-size: 30px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+
+}
+.mainInscription .helpPassword p {
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.mainInscription .helpPassword .helpPass {
+    text-align: center;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.mainInscription .helpPassword .inactif {
+    color: red;
+}
+.mainInscription .helpPassword .inactif::before {
+    content: 'X ';
+}
+.mainInscription .helpPassword .actif {
+    color: green;
+}
+.mainInscription .helpPassword .actif::before {
+    content: 'V ';
+}
+

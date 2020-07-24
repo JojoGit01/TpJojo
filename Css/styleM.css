@@ -1,0 +1,83 @@
+.contain-body{
+    background: beige;    
+}
+.contain-body .presentation {
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+}
+.contain-body .presentation img {
+    width: 100%;
+    height: 550px;
+    margin-top: -2px;
+}
+.contain-body .presentation .title-presentation {
+    font-size: 80px;
+    text-align: center;
+    margin-top: -321px;
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+.contain-body .viewRestaurants {
+    width: 1200px;
+    margin: auto;
+    background: coral;
+}
+.contain-body .viewRestaurants .title-viewRestaurants {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -20px;
+    color: lightslategray
+}
+.contain-body .viewRestaurants .viewAll{
+    border: 5px solid gray;
+    margin: 50px;
+}
+.contain-body .viewRestaurants .viewAll .stockView {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.contain-body .viewRestaurants .viewAll .stockView .view {
+    border: 4px solid #000;
+    width: 340px;
+    margin: 10px;
+}
+.contain-body .viewRestaurants .viewAll .stockView .view h1 {
+    color: teal;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    height: 76px;
+}
+.contain-body .viewRestaurants .viewAll .stockView .view p {
+    margin-right: 5px;
+    margin-left: 20px;
+    font-size: 22px;
+    text-justify: auto;
+    color: wheat
+}
+.contain-body .viewRestaurants .viewAll .stockView .view img{
+    width: 100%;
+    height: 350px;
+}
+.contain-body .viewRestaurants .viewAll .btnMore{
+    margin-left: 85.5%;
+}
+.contain-body .viewRestaurants .viewAll .btnMore .btn{
+    width: 150px;
+    padding:5px;
+    font-size: 22px;
+    color: red;
+    background: #000;
+    border: 2px solid #000;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.contain-body .viewRestaurants .viewAll .btnMore .btn:hover{
+    color: #000;
+    background: red;
+    border: 2px solid red;
+}
