@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    background: beige;
+
+}
+.containRestaurant {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.containRestaurant .titleRestaurant {
+    font-size: 50px;
+    text-align: center;
+    color: aqua;
+    background: #000;
+}
+.containRestaurant .recherche{
+    width: 250px;
+    margin: auto
+}
+.containRestaurant .recherche input {
+    width: 250px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 30px;
+    border: 4px solid #000;
+    text-align: left;
+    padding: 5px;
+    text-indent: 5px;
+    margin-bottom: 20px;
+}
+
+.tableRestaurants {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 5px solid #000;
+    border-radius: 30px;
+    border-spacing: 5px;
+    font-size: 30px;
+}
+
+.tableRestaurants .thead tr{
+    font-size: 30px;
+}
+.tableRestaurants .thead tr th a {
+    margin: 50px;
+    color :chocolate;
+}
+.tableRestaurants .tbody img{
+    width: auto;
+    height: 150px;
+}
+.tableRestaurants .separate-restaurants {
+    border: 2px solid #000
+}

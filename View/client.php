@@ -13,10 +13,22 @@ if (!$user) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLient Page</title>
+    <link rel="stylesheet" href="../Css/styleM.css">
+    <link rel="stylesheet" href="../Css/styleNavbar.css">
+    <script type="text/javascript" src="../JavaScript/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="../JavaScript/ViewAdd/addRestaurants.js"></script>
+    <title>Client Page</title>
 </head>
 <body>
-    <a href="../UseFunction/logout.php">Se déconnecter</a>
-    <h1>Test</h1>
+    <header class="header-nav">
+        <nav class="nav">
+            <a href="client.php">Accueil</a>
+            <a href="ViewClient/restaurants.php">Restaurants</a>
+            <a href="#">Réservation</a>
+            <a href="#">Commander</a>
+            <a href="../UseFunction/logout.php">Se Déconnecter</a>
+        </nav>
+    </header>
+    <?php require_once 'UseView/Contain/contain-bodyMC.php' ?>
 </body>
 </html>
