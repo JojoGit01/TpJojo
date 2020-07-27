@@ -46,9 +46,9 @@ $restaurants = $Restaurants->selectRestaurants($_GET['q'], $_GET['sort'], $_GET[
                     <tr>
                         <td><?= $restaurant->numRestaurant ?></td>
                         <td><?= $restaurant->nameRestaurant ?></td>
-                        <td><img src="<?= $restaurant->image ?>"></td>
+                        <td><img src="<?= '../../' . $restaurant->image ?>"></td>
                         <td><?= $restaurant->avis ?></td>
-                        <td>Voir la carte</td>
+                        <td><a href="carteC.php?numRestaurant= . <?= $restaurant->numRestaurant . "&nameR" . $restaurant->nameRestaurant ?>"> Voir la carte</td>
                     </tr>
                     <tr><td colspan="5"><hr class="separate-restaurants"></td></tr>
                 <?php endforeach ?>
