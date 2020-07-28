@@ -24,8 +24,8 @@ if (!$user) {
         <nav class="nav">
             <a href="client.php">Accueil</a>
             <a href="ViewClient/restaurants.php">Restaurants</a>
-            <a href="#">Réservation</a>
-            <a href="#">Commander</a>
+            <a href="ViewClient/reservation.php">Réservation</a>
+            <a href="ViewClient/commander.php">Commander</a>
             <a href="../UseFunction/logout.php">Se Déconnecter</a>
         </nav>
     </header>

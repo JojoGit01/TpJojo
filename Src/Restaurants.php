@@ -13,6 +13,12 @@ class Restaurants extends AllInformation{
         $restaurants = self::getInformation($sort, $dir);
         return $restaurants;
     }
+
+    public static function selectNameRestaurants () {
+        $selectName = App::getPDO()->prepare("SELECT nameRestaurant FROM restaurants");
+        $selectName->execute();
+        return $selectName->fetchAll();
+    }
 }
 
 ?>

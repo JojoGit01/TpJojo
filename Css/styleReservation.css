@@ -1,3 +1,41 @@
 html,body {
-    background: red;
+    background: lightgrey;
+}
+.bodyReservation {
+    width: 600px;
+    margin: auto;
+}
+.bodyReservation .fieldset-reservation {
+    background: lightsalmon;
+}
+.bodyReservation .fieldset-reservation .title-reservation{
+    font-size: 60px;
+    text-decoration: underline red;
+    color: green;
+    margin-bottom: 10px;
+}
+.bodyReservation .fieldset-reservation .contentReservation {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+.bodyReservation .fieldset-reservation .contentReservation label {
+    font-size: 35px;
+    color: grey;
+}
+.bodyReservation .fieldset-reservation .contentReservation select {
+    width: 512px;
+}
+.bodyReservation .fieldset-reservation .contentReservation input, 
+.bodyReservation .fieldset-reservation .contentReservation select {
+    margin-bottom: 25px;
+    font-size: 25px;
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    padding: 10px 0 10px 10px;
+}
+.bodyReservation .fieldset-reservation .contentReservation label,
+.bodyReservation .fieldset-reservation .contentReservation input {
+    width: 500px;
 }
